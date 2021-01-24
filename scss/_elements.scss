@@ -1,3 +1,43 @@
+* {
+    &:focus {
+        outline: none;
+    }
+}
+
+html {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+p {
+    &.title {
+        font-size: 2.8rem;
+        font-weight: $headings-font-weight;
+    }
+}
+
+h2 {
+    &.stencil {
+        position: relative;
+
+        &::after {
+            content: '';
+            width: 8.3rem;
+            height: .9rem;
+            background: $primary;
+            display: inline-block;
+            margin-left: 1.7rem;
+        }
+    }
+}
+
 .btn {
     border-radius: .6rem;
 }
@@ -6,7 +46,13 @@
     color: $white;
     text-transform: uppercase;
     font-weight: 600;
-    &:hover{
+
+    &:hover {
         color: $white;
     }
+}
+
+
+.card {
+    border: none;
 }
