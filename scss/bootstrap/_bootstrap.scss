@@ -8,6 +8,7 @@
 // scss-docs-start import-stack
 // Configuration
 @import "functions";
+@import "../custom-variables"; //override bootstrap-variables
 @import "variables";
 @import "mixins";
 @import "utilities";

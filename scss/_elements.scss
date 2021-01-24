@@ -1,8 +1,12 @@
-html{
-    font-size:62.5%;
+.btn {
+    border-radius: .6rem;
 }
 
-body{
-    font-family: $primary-font;
-    font-size: 1.8rem;
+.btn-primary {
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 600;
+    &:hover{
+        color: $white;
+    }
 }
