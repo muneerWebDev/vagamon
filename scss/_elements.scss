@@ -21,6 +21,15 @@ p {
         font-size: 2.8rem;
         font-weight: $headings-font-weight;
     }
+
+    &.title-2{
+        font-size: 2.5rem;
+    }
+
+    &.title-3{
+        font-size: 2.4rem;
+        font-weight: $font-weight-base;
+    }
 }
 
 h2 {
@@ -52,6 +61,13 @@ h2 {
     }
 }
 
+
+body .rating {
+    font-size: 1.3rem;
+    i {
+        color: $primary;
+    }
+}
 
 .card {
     border: none;

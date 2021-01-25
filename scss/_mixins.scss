@@ -1,0 +1,57 @@
+// card over explore
+
+@mixin hoverExplore {
+
+    position: relative;
+    img{
+        transition: .3s;
+    }
+    
+    &:before {
+        content: '';
+        position: absolute;
+        background: transparentize($orange, .43);
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        // transform: skew(90deg);
+        transition: .3s;
+        opacity: 0;
+        z-index: 1;
+    }
+
+    &::after {
+        content: 'EXPLORE';
+        font-weight: bold;
+        font-size: 2rem;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-60%) translateY(-50%);
+        background: $white;
+        padding: 1rem 3.4rem;
+        color: $orange;
+        border-radius: 7px;
+        opacity: 0;
+        transition: .3s;
+        z-index: 2;
+    }
+    
+    &:hover {
+
+        img{
+            transform: scale(1.02);
+        }
+        &:before {
+            transform: none;
+            opacity: 1;
+        }
+
+        &::after {
+            opacity: 1;
+            transform: translateX(-50%) translateY(-50%);
+        }
+    }
+}

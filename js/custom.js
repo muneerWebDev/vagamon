@@ -33,6 +33,16 @@ $(document).ready(function () {
             }
           ]
       });
+
+      $(".testimonials .slider").slick({
+          arrows: false,
+          dots: true,
+          autoplay: true,
+          autoplaySpeed: 2800,
+          speed: 500,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        });
                   
 });
 
@@ -46,8 +56,8 @@ function getDynamicDimensions() {
 
     //setting values
     $("body").css({
-        "--containerOffset": containerOffset,
-        "--navbarHeight": navbarHeight
+        "--containerOffset": containerOffset+'px',
+        "--navbarHeight": navbarHeight+'px'
     });
 
     //change values on resize

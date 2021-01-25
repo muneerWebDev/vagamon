@@ -13,9 +13,7 @@ $font-weight-base:            500;
 
 //colors
 $orange: #FF8124;
-$orange-2: #F2872F;
-$orange-3: #FFB57E;
-$orange-4: #FF81242F;
+$gray-300: #E3E3E3;
 $black: #000;
 $primary : $orange;
 $body-color: $black;
@@ -24,7 +22,7 @@ $dark: #040612;
 //font sizes
 $font-size-root: 62.5%;
 $font-size-base: 1.8rem;
-
+$enable-rfs: false;
 $headings-font-family:        $poppins;
 $headings-font-weight:        700;
 $h1-font-size:                9.7rem;
@@ -42,7 +40,8 @@ $grid-breakpoints: (
   lg: 992px,
   xl: 1200px,
   xxl: 1400px,
-  xxxl: 1600px
+  xxxl: 1535px,
+  xxxxl: 1732px
 );
 
 $grid-gutter-width: 3rem;
@@ -50,3 +49,5 @@ $grid-gutter-width: 3rem;
 
 //custom colors
 $light_grey: #E2E2E2;
+$card-box-shadow: 20px 3rem 3rem rgba(56, 56, 56, 0.11);
+$enable-responsive-font-sizes: false;

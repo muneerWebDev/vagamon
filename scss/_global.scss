@@ -167,8 +167,9 @@
                     display: block;
                     overflow: hidden;
                     height: 100%;
-                    position: relative;
                     color: $white;
+                    position: relative;
+                    @include hoverExplore;
 
                     img {
                         width: 100%;
@@ -183,49 +184,10 @@
                         transition: .3s;
                     }
 
-                    &:before {
-                        content: '';
-                        position: absolute;
-                        background: transparentize($orange, .43);
-                        bottom: 0;
-                        left: 0;
-                        right: 0;
-                        top: 0;
-                        // transform: skew(90deg);
-                        transition: .3s;
-                        opacity: 0;
-                    }
-
-                    &::after {
-                        content: 'EXPLORE';
-                        font-weight: bold;
-                        font-size: 2rem;
-                        display: block;
-                        position: absolute;
-                        top: 50%;
-                        left: 50%;
-                        transform: translateX(-60%) translateY(-50%);
-                        background: $white;
-                        padding: 1rem 3.4rem;
-                        color: $orange;
-                        border-radius: 7px;
-                        opacity: 0;
-                        transition: .3s;
-                    }
 
                     &:hover {
                         .title {
                             color: $black;
-                        }
-
-                        &:before {
-                            transform: none;
-                            opacity: 1;
-                        }
-
-                        &::after {
-                            opacity: 1;
-                            transform: translateX(-50%) translateY(-50%);
                         }
                     }
                 }
@@ -278,7 +240,7 @@ section {
     }
 
 
-    &.experiences {
+    &.explore_experiences {
         padding: 12rem 0 6rem;
 
         .head {
@@ -297,24 +259,130 @@ section {
             display: block;
             margin-bottom: 5rem;
 
+            .image {
+                overflow: hidden;
+
+                img {
+                    transition: .3s;
+                    width: 100%;
+                    z-index: -1;
+                }
+
+                @include hoverExplore;
+            }
+
+
             .text {
                 padding-top: 2rem;
                 margin-bottom: 0;
             }
 
-            p{
+            p {
                 margin: 0;
             }
 
-            .rating {
-                margin-top: -.5rem;
-                i {
-                    color: $primary;
-                    font-size: 1.6rem;
+        }
+    }
+
+    &.testimonials {
+        padding: 12rem 0 7.5rem;
+
+        h2 {
+            margin-bottom: 5rem;
+        }
+
+        .slider {
+            .item {
+                padding: 0 0 9.3rem;
+                transition: .3s;
+                transform: scale(0.8);
+
+                &.slick-active{
+                    transform: scale(1);
+                }
+
+                .wrap {
+                    display: flex;
+                    border-radius: 21px;
+                    overflow: hidden;
+                    border: 1px solid $gray-300;
+                    box-shadow: $card-box-shadow;
+
+                    @include media-breakpoint-down(xl) {
+                        flex-direction: column;
+                    }
+
+                }
+
+                .image {
+                    width: 38%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        max-height: 57.2rem;
+                    }
+                }
+
+                .text {
+                    padding: 6rem 4.5rem;
+                    width: 62%;
+
+                    .title{
+                        margin-bottom: 2rem;
+                    }
+
+                    .title-2{
+                        margin: 4.5rem 0 0;
+                    }
+                    .title-3{
+                        margin-bottom: .5rem;
+                    }
+
+                    p:not(.title){
+                        line-height: 2.9rem;
+                    }
+                }
+                
+                @include media-breakpoint-down(xl) {
+                    .image,.text{
+                        width: 100%;
+                    }
+                }
+            }
+
+            .slick-list {
+                padding-right: 31.3%;
+                // margin: 0 -3.75rem
+
+                @include media-breakpoint-down(xl){
+                    padding-right: 20%;
+                }
+
+                @include media-breakpoint-down(sm){
+                    padding-right: calc(var(--bs-gutter-x) / 2);
+                }
+            }
+        }
+
+        .slick-dots {
+
+            button {
+                width: .9rem;
+                height: .9rem;
+                border: 1px solid $primary;
+                border-radius: 50%;
+                transition: .3s;
+                padding: 0;
+            }
+
+            .slick-active {
+                button {
+                    background: $primary;
+                    transform: scale(1.2);
                 }
             }
         }
     }
-
 
 }

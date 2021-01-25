@@ -4,18 +4,29 @@
     }
 }
 
+@include media-breakpoint-down(xxxxl){
+    :root{
+        font-size: 56.5%;
+    }
+}
+
 @include media-breakpoint-down(xxxl){
     :root{
-        font-size: 59.5%;
+        font-size: 51%;
     }
 }
 
 @include media-breakpoint-down(xxl){
     :root{
-        font-size: 52.8%;
+        font-size: 44.5%;
     }
 }
 
 body{
     font-size:  $font-size-base;
+}
+
+.container-righted{
+    margin-left: var(--containerOffset);
+    padding-left: $container-padding-x;
 }
