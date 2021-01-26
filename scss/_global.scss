@@ -42,6 +42,16 @@
     .btn-primary {
         padding: 1.5rem 2rem;
     }
+
+
+    @include media-breakpoint-down(lg) {
+        background: $black;
+        box-shadow: $box-shadow;
+
+        .nav-link.active {
+            color: $primary;
+        }
+    }
 }
 
 .scrolled .navbar {
@@ -59,6 +69,24 @@
     }
 }
 
+.navbar-collapse {
+    width: auto;
+}
+@include media-breakpoint-down(xl) {
+
+    .navbar-collapse {
+        width: 100%;
+    }
+    .navbar-nav {
+        margin-top: 3rem;
+        padding: 2rem 0 1rem;
+        border-top: 1px solid $gray-600;
+
+        .nav-item {
+            padding: 1rem 0;
+        }
+    }
+}
 
 
 section {
@@ -391,12 +419,13 @@ section {
 
     &.contact {
         margin-bottom: 7rem;
+
         .wrapper {
             background: $dark;
             border-radius: 27px;
             padding: 8.5rem 0;
 
-            @include media-breakpoint-down(lg){
+            @include media-breakpoint-down(lg) {
                 padding: 8rem 5rem;
             }
 
@@ -447,39 +476,44 @@ section {
 }
 
 
-footer{
+footer {
     background: url("../images/footer.png") center center no-repeat;
     background-size: cover;
     padding: 8rem 0 4rem;
 
-    *:not(i){
+    *:not(i) {
         color: $white;
     }
 
-    .subscribe{
+    .subscribe {
         max-width: 62.5rem;
         margin: auto;
         margin-bottom: 8.5rem;
-        .title{
+
+        .title {
             margin-bottom: 3.5rem;
         }
     }
 
-    .logo{
+    .logo {
         margin-bottom: 4rem;
-        img{
+
+        img {
             max-width: 18rem;
         }
     }
 
-    ul{
+    ul {
         list-style: none;
     }
-    .social{
+
+    .social {
         justify-content: center;
-        li{
+
+        li {
             margin: 0 1.5rem .5rem;
-            a{
+
+            a {
                 font-size: 3rem;
             }
         }

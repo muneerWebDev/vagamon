@@ -15,6 +15,10 @@ $(document).ready(function () {
         }
     })
 
+    $(".hamburger").click(function(){
+        $(this).toggleClass("change").siblings(".navbar-collapse").parents("body").toggleClass("navbarOpen");
+    })
+
     //adding class to inout field if it has value
     ifInputHasValueToggleActive();
 
@@ -71,7 +75,7 @@ function getDynamicDimensions() {
 
 function ifInputHasValueToggleActive() {
 
-    $("form input").focusout(function () {
+    $("form input,form textarea").focusout(function () {
         console.log($(this).val().length)
         if ($(this).val().length != 0) {
             $(this).parent().addClass("active");

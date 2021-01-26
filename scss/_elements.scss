@@ -12,7 +12,8 @@ html {
 a {
     text-decoration: none;
     transition: .3s;
-    &:hover{
+
+    &:hover {
         text-decoration: none;
     }
 }
@@ -23,11 +24,11 @@ p {
         font-weight: $headings-font-weight;
     }
 
-    &.title-2{
+    &.title-2 {
         font-size: 2.5rem;
     }
 
-    &.title-3{
+    &.title-3 {
         font-size: 2.4rem;
         font-weight: $font-weight-base;
     }
@@ -56,7 +57,7 @@ h2 {
     color: $white;
     text-transform: uppercase;
     font-weight: 600;
-    padding: 1rem 2.5rem    ;
+    padding: 1rem 2.5rem;
 
     &:hover {
         color: $white;
@@ -64,10 +65,17 @@ h2 {
 }
 
 
-body .rating {
-    font-size: 1.3rem;
-    i {
-        color: $primary;
+body {
+    @include media-breakpoint-down(lg){
+        padding-top: var(--navbarHeight);
+    }
+    
+    .rating {
+        font-size: 1.3rem;
+    
+        i {
+            color: $primary;
+        }
     }
 }
 
@@ -75,29 +83,30 @@ body .rating {
     border: none;
 }
 
-.form-label{
+.form-label {
     font-size: 1.6rem;
     margin-bottom: 1.5rem;
 }
 
-input{
+input {
     border-radius: 4px;
 
     &[type="text"],
-    &[type="email"]{
+    &[type="email"] {
         height: 5.5rem;
         border-radius: 4px !important;
         border-color: $gray-400;
     }
 }
 
-.active > input{
+.active>input {
     border-color: $primary;
 }
 
-.input-group{
+.input-group {
     position: relative;
-    span{
+
+    span {
         position: absolute;
         left: .1rem;
         width: 5.3rem;
@@ -112,17 +121,29 @@ input{
 
     input{
         padding-left: 5.5rem;
-        &:focus + span{
+
+        &:focus+span {
             color: $primary;
         }
     }
-    &.active input + span{
-        color: $primary;
+
+    textarea{
+        padding-left: 0;
+    }
+
+    &.active{
+        textarea{
+            border: 1px solid $primary;
+            color: $black;
+        }
+        input+span {
+            color: $primary;
+        }
     }
 }
 
 
-textarea.form-control{
+textarea.form-control {
     height: 19rem;
     border-radius: 4px;
     background: $gray-200;
@@ -130,4 +151,49 @@ textarea.form-control{
     border: none;
     padding: 1.5rem 2rem;
     resize: none;
+}
+
+.navbar-toggler{
+    padding: 0;
+    &:focus{
+        outline: none;
+    }
+}
+
+.hamburger {
+    width: 30px;
+    height: 3px;
+    background: $white;
+    display: block;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: -300%;
+        background: $white;
+        transition: .3s;
+    }
+
+    &::after {
+        top: initial;
+        bottom: -300%;
+    }
+
+    &.change {
+        background: transparent;
+        &::before {
+            transform: rotate(-45deg) translate(-9px,8px);
+        }
+
+        &::after {
+            transform: rotate(45deg) translate(-5px,-4px);
+        }
+    }
 }
