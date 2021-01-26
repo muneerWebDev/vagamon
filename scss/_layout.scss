@@ -1,32 +1,33 @@
-@include media-breakpoint-up(xl){
-    .container{
+@include media-breakpoint-up(xl) {
+    .container {
         max-width: calc(85.67% + 30px);
     }
 }
 
-@include media-breakpoint-down(xxxxl){
-    :root{
+@include media-breakpoint-down(xxxxl) {
+    :root {
         font-size: 56.5%;
     }
 }
 
-@include media-breakpoint-down(xxxl){
-    :root{
+@include media-breakpoint-down(xxxl) {
+    :root {
         font-size: 51%;
     }
 }
 
-@include media-breakpoint-down(xxl){
-    :root{
+@include media-breakpoint-down(xxl) {
+    :root {
         font-size: 44.5%;
     }
 }
 
-body{
-    font-size:  $font-size-base;
+body {
+    font-size: $font-size-base;
 }
 
-.container-righted{
+.container-righted {
     margin-left: var(--containerOffset);
     padding-left: $container-padding-x;
 }
+

@@ -3,19 +3,13 @@ $(document).ready(function () {
     // setting dynamic css variabels
     getDynamicDimensions();
 
-
+    //adding class to body if scrolled from pagetop
+    addClassToBodyIfScrolled();
     $(window).scroll(function () {
-        var scrollTop = $(window).scrollTop();
-
-        //adding class to body if scrolled from pagetop
-        if (scrollTop > 5) {
-            $("body").addClass("scrolled");
-        } else {
-            $("body").removeClass("scrolled");
-        }
+        addClassToBodyIfScrolled();
     })
 
-    $(".hamburger").click(function(){
+    $(".hamburger").click(function () {
         $(this).toggleClass("change").siblings(".navbar-collapse").parents("body").toggleClass("navbarOpen");
     })
 
@@ -50,6 +44,12 @@ $(document).ready(function () {
         slidesToScroll: 1,
     });
 
+    // setting background image via attribute
+    $("[data-image-src]").each(function () {
+        var imgUrl = $(this).attr("data-image-src");
+        $(this).css("background-image", "url(" + imgUrl + ")");
+    });
+
 });
 
 
@@ -58,7 +58,7 @@ $(document).ready(function () {
 function getDynamicDimensions() {
     //getting values
     var containerOffset = $(".container").offset().left;
-    var navbarHeight = $(".siteHeader .navbar").height();
+    var navbarHeight = $(".siteHeader .navbar").innerHeight();
 
     //setting values
     $("body").css({
@@ -83,4 +83,13 @@ function ifInputHasValueToggleActive() {
             $(this).parent().removeClass("active");
         }
     })
+}
+
+function addClassToBodyIfScrolled() {
+    var scrollTop = $(window).scrollTop();
+    if (scrollTop > 5) {
+        $("body").addClass("scrolled");
+    } else {
+        $("body").removeClass("scrolled");
+    }
 }

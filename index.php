@@ -25,63 +25,63 @@
                         <div class="slider">
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/meadow.jpg" alt="">
                                     <p class="title">Vagamon Meadows</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/jeep.jpg" alt="">
                                     <p class="title">Jeep Safari</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/mountain.jpg" alt="">
                                     <p class="title">Mountain Top Camping</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/cotteges.jpg" alt="">
                                     <p class="title">Cottages</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/jeep.jpg" alt="">
                                     <p class="title">Jeep Safari</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/meadow.jpg" alt="">
                                     <p class="title">Vagamon Meadows</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/mountain.jpg" alt="">
                                     <p class="title">Mountain Top Camping</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/cotteges.jpg" alt="">
                                     <p class="title">Cottages</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/jeep.jpg" alt="">
                                     <p class="title">Jeep Safari</p>
                                 </a>
@@ -110,63 +110,63 @@
                         <div class="slider">
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/munnar/camp_woody.jpg" alt="">
                                     <p class="title">Camp Woody</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/munnar/kolukkumalai.jpg" alt="">
                                     <p class="title">Kolukkumalai</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/mountain.jpg" alt="">
                                     <p class="title">Mountain Top Camping</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/munnar/meeshappuli.jpg" alt="">
                                     <p class="title">Meeshappuli Valley</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/munnar/plantation.jpg" alt="">
                                     <p class="title">Plantation Resort</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/meadow.jpg" alt="">
                                     <p class="title">Vagamon Meadows</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/mountain.jpg" alt="">
                                     <p class="title">Mountain Top Camping</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/cotteges.jpg" alt="">
                                     <p class="title">Cottages</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/jeep.jpg" alt="">
                                     <p class="title">Jeep Safari</p>
                                 </a>
@@ -195,63 +195,63 @@
                         <div class="slider">
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/wayanad/Kurumbalakotta.jpg" alt="">
                                     <p class="title">Kurumbalakkota</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/wayanad/ambukuthimala.jpg" alt="">
                                     <p class="title">Ambukuthimala</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/wayanad/cotteges.jpg" alt="">
                                     <p class="title">Cottages</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/cotteges.jpg" alt="">
                                     <p class="title">Cottages</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/jeep.jpg" alt="">
                                     <p class="title">Jeep Safari</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/meadow.jpg" alt="">
                                     <p class="title">Vagamon Meadows</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/mountain.jpg" alt="">
                                     <p class="title">Mountain Top Camping</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/cotteges.jpg" alt="">
                                     <p class="title">Cottages</p>
                                 </a>
                             </div>
 
                             <div class="card">
-                                <a href="#" class="wrap">
+                                <a href="javaScript:void(0)" class="wrap">
                                     <img src="images/destinations/vagamon/jeep.jpg" alt="">
                                     <p class="title">Jeep Safari</p>
                                 </a>
@@ -289,7 +289,7 @@
                         <div class="row">
 
                             <div class="col-xl-3 col-md-4 col-6">
-                                <a href="#" class="item">
+                                <a href="javaScript:void(0)" class="item">
                                     <div class="image">
                                         <img src="images/experiences/Kolukkumalai.jpg" alt="" class="img-fluid">
                                     </div>
@@ -307,7 +307,7 @@
                             </div>
 
                             <div class="col-xl-3 col-md-4 col-6">
-                                <a href="#" class="item">
+                                <a href="javaScript:void(0)" class="item">
                                     <div class="image">
                                         <img src="images/experiences/Kayaking.jpg" alt="" class="img-fluid">
                                     </div>
@@ -325,7 +325,7 @@
                             </div>
 
                             <div class="col-xl-3 col-md-4 col-6">
-                                <a href="#" class="item">
+                                <a href="javaScript:void(0)" class="item">
                                     <div class="image">
                                         <img src="images/experiences/Zipline.jpg" alt="" class="img-fluid">
                                     </div>
@@ -343,7 +343,7 @@
                             </div>
 
                             <div class="col-xl-3 col-md-4 col-6">
-                                <a href="#" class="item">
+                                <a href="javaScript:void(0)" class="item">
                                     <div class="image">
                                         <img src="images/experiences/tea_factory.jpg" alt="" class="img-fluid">
                                     </div>
@@ -361,7 +361,7 @@
                             </div>
 
                             <div class="col-xl-3 col-md-4 col-6">
-                                <a href="#" class="item">
+                                <a href="javaScript:void(0)" class="item">
                                     <div class="image">
                                         <img src="images/experiences/Kayaking.jpg" alt="" class="img-fluid">
                                     </div>
@@ -379,7 +379,7 @@
                             </div>
 
                             <div class="col-xl-3 col-md-4 col-6">
-                                <a href="#" class="item">
+                                <a href="javaScript:void(0)" class="item">
                                     <div class="image">
                                         <img src="images/experiences/Zipline.jpg" alt="" class="img-fluid">
                                     </div>
@@ -397,7 +397,7 @@
                             </div>
 
                             <div class="col-xl-3 col-md-4 col-6">
-                                <a href="#" class="item">
+                                <a href="javaScript:void(0)" class="item">
                                     <div class="image">
                                         <img src="images/experiences/tea_factory.jpg" alt="" class="img-fluid">
                                     </div>
@@ -415,7 +415,7 @@
                             </div>
 
                             <div class="col-xl-3 col-md-4 col-6">
-                                <a href="#" class="item">
+                                <a href="javaScript:void(0)" class="item">
                                     <div class="image">
                                         <img src="images/experiences/Kolukkumalai.jpg" alt="" class="img-fluid">
                                     </div>

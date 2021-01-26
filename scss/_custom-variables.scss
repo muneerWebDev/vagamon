@@ -34,7 +34,7 @@ $h2-font-size:                7.5rem;
 $h3-font-size:                5rem;
 $h4-font-size:                4rem;
 $h5-font-size:                $font-size-base * 1.25 !default;
-$h6-font-size:                $font-size-base !default;
+$h6-font-size:                2rem;
 
 //grid
 $grid-breakpoints: (
@@ -55,3 +55,4 @@ $grid-gutter-width: 3rem;
 $light_grey: #E2E2E2;
 $card-box-shadow: 20px 3rem 3rem rgba(56, 56, 56, 0.11);
 $enable-responsive-font-sizes: false;
+$dark-gradient: linear-gradient(45deg, #040612, #020C5A);

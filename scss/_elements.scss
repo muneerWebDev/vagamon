@@ -34,6 +34,11 @@ p {
     }
 }
 
+ul{
+    list-style: none;
+    padding: 0;
+}
+
 h2 {
     &.stencil {
         position: relative;
@@ -47,6 +52,10 @@ h2 {
             margin-left: 1.7rem;
         }
     }
+}
+
+h6{
+    font-weight: 600;
 }
 
 .btn {

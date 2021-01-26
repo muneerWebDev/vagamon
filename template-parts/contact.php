@@ -18,11 +18,11 @@
                                         leo orci egestas
                                     </p>
                                     <div class="contact-links">
-                                        <a href=""><span class="icon"><i
+                                        <a href="javaScript:void(0)"><span class="icon"><i
                                                     class="fas fa-phone-alt"></i></span>(686)999-6498</a>
-                                        <a href=""><span class="icon"><i
+                                        <a href="javaScript:void(0)"><span class="icon"><i
                                                     class="fas fa-envelope"></i></span>steve.wallace@mail.com</a>
-                                        <a href=""><span class="icon"><i
+                                        <a href="javaScript:void(0)"><span class="icon"><i
                                                     class="fab fa-whatsapp"></i></span>(345)474-2108</a>
                                     </div>
                                 </div>

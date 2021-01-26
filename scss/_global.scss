@@ -45,7 +45,7 @@
 
 
     @include media-breakpoint-down(lg) {
-        background: $black;
+        background: $dark-gradient;
         box-shadow: $box-shadow;
 
         .nav-link.active {
@@ -55,7 +55,7 @@
 }
 
 .scrolled .navbar {
-    background: $black;
+    background: $dark-gradient;
     box-shadow: $box-shadow;
 
     .navbar-brand {
@@ -72,11 +72,13 @@
 .navbar-collapse {
     width: auto;
 }
+
 @include media-breakpoint-down(xl) {
 
     .navbar-collapse {
         width: 100%;
     }
+
     .navbar-nav {
         margin-top: 3rem;
         padding: 2rem 0 1rem;
@@ -503,9 +505,6 @@ footer {
         }
     }
 
-    ul {
-        list-style: none;
-    }
 
     .social {
         justify-content: center;
@@ -519,3 +518,34 @@ footer {
         }
     }
 }
+
+
+
+.gallery {
+    padding-bottom: 8rem;
+
+    .item {
+        margin-bottom: 2rem;
+
+        .wrap {
+            overflow: hidden;
+            height: 100%;
+            border-radius: .9rem;
+            display: block;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: .3s;
+            }
+
+            &:hover {
+                img {
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+}
+
