@@ -11,6 +11,7 @@ html {
 
 a {
     text-decoration: none;
+    transition: .3s;
     &:hover{
         text-decoration: none;
     }
@@ -55,6 +56,7 @@ h2 {
     color: $white;
     text-transform: uppercase;
     font-weight: 600;
+    padding: 1rem 2.5rem    ;
 
     &:hover {
         color: $white;
@@ -71,4 +73,61 @@ body .rating {
 
 .card {
     border: none;
+}
+
+.form-label{
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+input{
+    border-radius: 4px;
+
+    &[type="text"],
+    &[type="email"]{
+        height: 5.5rem;
+        border-radius: 4px !important;
+        border-color: $gray-400;
+    }
+}
+
+.active > input{
+    border-color: $primary;
+}
+
+.input-group{
+    position: relative;
+    span{
+        position: absolute;
+        left: .1rem;
+        width: 5.3rem;
+        height: 5.3rem;
+        top: .1rem;
+        color: $gray-600;
+        justify-content: center;
+        background: transparent;
+        border: none;
+        z-index: 4;
+    }
+
+    input{
+        padding-left: 5.5rem;
+        &:focus + span{
+            color: $primary;
+        }
+    }
+    &.active input + span{
+        color: $primary;
+    }
+}
+
+
+textarea.form-control{
+    height: 19rem;
+    border-radius: 4px;
+    background: $gray-200;
+    color: $gray-500;
+    border: none;
+    padding: 1.5rem 2rem;
+    resize: none;
 }

@@ -4,16 +4,20 @@ $(document).ready(function () {
     getDynamicDimensions();
 
 
-    $(window).scroll(function(){
+    $(window).scroll(function () {
         var scrollTop = $(window).scrollTop();
-        
+
         //adding class to body if scrolled from pagetop
-        if(scrollTop > 5){
+        if (scrollTop > 5) {
             $("body").addClass("scrolled");
-        }else{
+        } else {
             $("body").removeClass("scrolled");
         }
     })
+
+    //adding class to inout field if it has value
+    ifInputHasValueToggleActive();
+
 
     //sliders
     $(".destinations .slider").slick({
@@ -24,26 +28,24 @@ $(document).ready(function () {
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 1,
-        responsive: [
-            {
-              breakpoint: 1024,
-              settings: {
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
                 slidesToShow: 2
-              }
             }
-          ]
-      });
+        }]
+    });
 
-      $(".testimonials .slider").slick({
-          arrows: false,
-          dots: true,
-          autoplay: true,
-          autoplaySpeed: 2800,
-          speed: 500,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        });
-                  
+    $(".testimonials .slider").slick({
+        arrows: false,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 2800,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    });
+
 });
 
 
@@ -56,8 +58,8 @@ function getDynamicDimensions() {
 
     //setting values
     $("body").css({
-        "--containerOffset": containerOffset+'px',
-        "--navbarHeight": navbarHeight+'px'
+        "--containerOffset": containerOffset + 'px',
+        "--navbarHeight": navbarHeight + 'px'
     });
 
     //change values on resize
@@ -67,3 +69,14 @@ function getDynamicDimensions() {
 }
 
 
+function ifInputHasValueToggleActive() {
+
+    $("form input").focusout(function () {
+        console.log($(this).val().length)
+        if ($(this).val().length != 0) {
+            $(this).parent().addClass("active");
+        } else {
+            $(this).parent().removeClass("active");
+        }
+    })
+}
