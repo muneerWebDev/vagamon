@@ -47,7 +47,8 @@ main:not(.homepage) {
     }
 }
 
-.destination-single {
+.destination-single,
+.location-single {
 
     .banner {
         height: 53rem;
@@ -68,12 +69,17 @@ main:not(.homepage) {
         background: $dark-gradient;
         padding: var(--navbarHeight) 0 0;
 
+        @include media-breakpoint-down(lg){
+            margin-top: 5rem;
+        }
+
         * {
             color: $white;
         }
 
         h3 {
             margin: 6rem 0;
+            
         }
 
         ul {

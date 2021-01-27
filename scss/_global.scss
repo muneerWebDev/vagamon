@@ -539,6 +539,8 @@ footer {
                 object-fit: cover;
                 transition: .3s;
             }
+            
+            @include hoverExplore;
 
             &:hover {
                 img {

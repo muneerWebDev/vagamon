@@ -15,7 +15,7 @@
 
 <nav class="navbar navbar-expand-xl">
     <div class="container">
-        <a class="navbar-brand" href="javaScript:void(0)"><img src="images/logo.png" alt="" class="img-fluid"></a>
+        <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="" class="img-fluid"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="hamburger"></span>
@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse w-xl-auto" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="javaScript:void(0)">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="javaScript:void(0)">Locations</a>

@@ -87,7 +87,7 @@ function ifInputHasValueToggleActive() {
 
 function addClassToBodyIfScrolled() {
     var scrollTop = $(window).scrollTop();
-    if (scrollTop > 5) {
+    if (scrollTop > 10) {
         $("body").addClass("scrolled");
     } else {
         $("body").removeClass("scrolled");
