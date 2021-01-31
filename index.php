@@ -14,7 +14,7 @@
                         <p>
                             Munnar is a town in the Western Ghats mountain range in India’s Kerala state. A hill station and former resort for the British Raj elite, it’s surrounded by rolling hills dotted with tea plantations established in the late 19th century.
                         </p>
-                        <a href="" class="btn btn-primary">
+                        <a href="javaScript:void(0)" class="btn btn-primary">
                             EXPLORE <i class="fal fa-long-arrow-right"></i>
                         </a>
                     </div>
@@ -28,7 +28,7 @@
                         <p>
                             Vagamon is a town in the Western Ghats mountain range in India’s Kerala state. A hill station and former resort for the British Raj elite, it’s surrounded by rolling hills dotted with tea plantations established in the late 19th century.
                         </p>
-                        <a href="" class="btn btn-primary">
+                        <a href="javaScript:void(0)" class="btn btn-primary">
                             EXPLORE <i class="fal fa-long-arrow-right"></i>
                         </a>
                     </div>
@@ -42,7 +42,7 @@
                         <p>
                             Wayanad is a town in the Western Ghats mountain range in India’s Kerala state. A hill station and former resort for the British Raj elite, it’s surrounded by rolling hills dotted with tea plantations established in the late 19th century.
                         </p>
-                        <a href="" class="btn btn-primary">
+                        <a href="javaScript:void(0)" class="btn btn-primary">
                             EXPLORE <i class="fal fa-long-arrow-right"></i>
                         </a>
                     </div>
@@ -53,7 +53,7 @@
 
         <div class="nav-slider">
             <div class="item">
-                <a href="#" class="wrap">
+                <a href="javaScript:void(0)" class="wrap">
                     <img src="images/destinations/vagamon/mountain.jpg" alt="" class="img-fluid">
                     <div class="text">
                         <p class="title-4">VAGAMON</p>
@@ -62,7 +62,7 @@
                 </a>
             </div>
             <div class="item">
-                <a href="#" class="wrap">
+                <a href="javaScript:void(0)" class="wrap">
                     <img src="images/destinations/wayanad/ambukuthimala.jpg" alt="" class="img-fluid">
                     <div class="text">
                         <p class="title-4">WAYANAD</p>
@@ -71,7 +71,7 @@
                 </a>
             </div>
             <div class="item">
-                <a href="#" class="wrap">
+                <a href="javaScript:void(0)" class="wrap">
                     <img src="images/destinations/munnar/kolukkumalai.jpg" alt="" class="img-fluid">
                     <div class="text">
                         <p class="title-4">MUNNAR</p>
