@@ -32,6 +32,16 @@ p {
         font-size: 2.4rem;
         font-weight: $font-weight-base;
     }
+
+    &.title-4 {
+        font-size: 2.3rem;
+        font-weight: $headings-font-weight;
+        font-family: $headings-font-family;
+        &+ .title-4{
+            font-family: $font-family-base;
+            font-weight: $font-weight-base;
+        }
+    }
 }
 
 ul{

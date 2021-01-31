@@ -2,7 +2,86 @@
 <main class="homepage">
 
     <section class="banner">
-        <img src="images/banner/main-image.jpg  " alt="" class="img-fluid">
+
+
+        <div class="main-slider">
+
+            <div class="item">
+                <img src="images/banner/main-image.jpg" alt="" class="image">
+                <div class="container-righted">
+                    <div class="text">
+                        <h1>MUNNAR</h1>
+                        <p>
+                            Munnar is a town in the Western Ghats mountain range in India’s Kerala state. A hill station and former resort for the British Raj elite, it’s surrounded by rolling hills dotted with tea plantations established in the late 19th century.
+                        </p>
+                        <a href="" class="btn btn-primary">
+                            EXPLORE <i class="fal fa-long-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/banner/main-image.jpg" alt="" class="image">
+                <div class="container-righted">
+                    <div class="text">
+                        <h1>VAGAMON</h1>
+                        <p>
+                            Vagamon is a town in the Western Ghats mountain range in India’s Kerala state. A hill station and former resort for the British Raj elite, it’s surrounded by rolling hills dotted with tea plantations established in the late 19th century.
+                        </p>
+                        <a href="" class="btn btn-primary">
+                            EXPLORE <i class="fal fa-long-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/banner/main-image.jpg" alt="" class="image">
+                <div class="container-righted">
+                    <div class="text">
+                        <h1>WAYANAD</h1>
+                        <p>
+                            Wayanad is a town in the Western Ghats mountain range in India’s Kerala state. A hill station and former resort for the British Raj elite, it’s surrounded by rolling hills dotted with tea plantations established in the late 19th century.
+                        </p>
+                        <a href="" class="btn btn-primary">
+                            EXPLORE <i class="fal fa-long-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="nav-slider">
+            <div class="item">
+                <a href="#" class="wrap">
+                    <img src="images/destinations/vagamon/mountain.jpg" alt="" class="img-fluid">
+                    <div class="text">
+                        <p class="title-4">VAGAMON</p>
+                        <p class="title-4">Medows</p>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#" class="wrap">
+                    <img src="images/destinations/wayanad/ambukuthimala.jpg" alt="" class="img-fluid">
+                    <div class="text">
+                        <p class="title-4">WAYANAD</p>
+                        <p class="title-4">Ambukuthi Mala</p>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#" class="wrap">
+                    <img src="images/destinations/munnar/kolukkumalai.jpg" alt="" class="img-fluid">
+                    <div class="text">
+                        <p class="title-4">MUNNAR</p>
+                        <p class="title-4">Anayirangal Valley</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
     </section>
 
     <section class="destinations">

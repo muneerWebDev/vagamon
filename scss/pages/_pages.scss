@@ -1,0 +1,303 @@
+.homepage {
+    .banner {
+        position: relative;
+
+        * {
+            color: $white;
+        }
+
+        .main-slider {
+            .item {
+                position: relative;
+                padding: calc(var(--navbarHeight)*3.2) 0 calc(var(--navbarHeight)*3);
+
+                @include media-breakpoint-down(xl){
+                    padding: var(--navbarHeight) 0 80rem;
+                }
+
+                .image {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    z-index: -1;
+                }
+
+                .container-righted {
+                    @include media-breakpoint-up(xl){
+                        max-width: 35%;
+                    }
+                }
+
+            }
+
+            p {
+                margin: 1rem 0 4rem;
+            }
+
+            .btn-primary {
+                i {
+                    padding-left: .5rem;
+                    transition: .3s;
+                }
+
+                &:hover {
+                    i {
+                        padding-left: .9rem;
+                    }
+                }
+            }
+        }
+
+        .nav-slider {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            width: 55%;
+            padding: calc(var(--navbarHeight) * 1) 0 0 3rem;
+
+            @include media-breakpoint-down(xl){
+                width: 100%;
+                bottom: 10rem;
+                top: initial;
+                transform: none;
+                padding-left: calc(var(--containerOffset) + var(--bs-gutter-x,1.5rem));
+            }
+
+            .item {
+                padding: 0 2rem;
+            }
+
+            .custom_paging {
+                margin-top: 7rem;
+                text-align: right;
+                margin-right: var(--containerOffset);
+                padding-right: var(--bs-gutter-x,1.5rem);   
+                li {
+                    display: none;
+
+                    &.slick-active {
+                        display: block;
+                    }
+                }
+            }
+
+            .slick-arrow {
+                top: initial;
+                transform: none;
+                bottom: -0.3rem;
+                right: calc(var(--containerOffset) + 7.5rem);
+                left: inherit;
+                width: 5rem;
+                height: 5rem;
+                border-radius: 50%;
+                background: transparentize($white, .7);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &::before{
+                    content: '\f054';
+                    font-family: "Font Awesome 5 Pro";
+                    font-style: normal;
+                    font-weight: 100;
+                    transition: .3s;
+                }
+
+                &.slick-prev{
+                    margin-right: 6.5rem;
+                    background: transparentize($white, .85);
+                    &::before{
+                        content: '\f053';
+                    }
+                }
+            }
+
+            .wrap {
+                border-radius: 1.6rem;
+                height: 50rem;
+                position: relative;
+                overflow: hidden;
+                display: flex;
+                align-items: flex-end;
+                box-shadow: $card-box-shadow;
+                @include hoverExplore;
+
+                img {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    z-index: -1;
+                }
+
+                .text {
+                    padding: 2rem;
+
+                    .title-4 {
+                        margin: 0;
+                    }
+                }
+
+            }
+
+            .slick-list.draggable {
+                padding: 0 23% 0 0 !important;
+                margin: 0 -2rem;
+
+                .slick-current+.slick-active {
+                    .wrap {
+                        transform: scale(0.9);
+                    }
+
+                    &+.slick-slide {
+                        .wrap {
+                            transform: scale(0.9);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//spacing for inner pages
+main:not(.homepage) {
+    h2 {
+        text-transform: uppercase;
+    }
+
+    h3 {
+        margin-bottom: 2rem;
+    }
+
+    h6 {
+        margin-bottom: 1.5rem;
+    }
+
+    hr {
+        margin: 2.5rem 0;
+        border-color: $gray-400;
+    }
+
+    ul,
+    ol,
+    p {
+        max-width: 82.8rem;
+    }
+
+    .detail {
+        padding: 10rem 0;
+        line-height: 3rem;
+
+        .whats-included {
+            padding: 3.5rem;
+            border: 1px solid $gray-400;
+            border-radius: .5rem;
+            margin-top: 5rem;
+        }
+
+    }
+
+    .image {
+        margin-top: 4rem;
+        border-radius: 9px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.destination-single,
+.location-single {
+
+    .banner {
+        height: 53rem;
+        padding: var(--navbarHeight) 0;
+        display: flex;
+        align-items: center;
+
+        * {
+            color: $white;
+        }
+    }
+
+}
+
+.experience-single {
+
+    .banner {
+        background: $dark-gradient;
+        padding: var(--navbarHeight) 0 0;
+
+        @include media-breakpoint-down(lg) {
+            margin-top: 5rem;
+        }
+
+        * {
+            color: $white;
+        }
+
+        h3 {
+            margin: 6rem 0;
+
+        }
+
+        ul {
+            max-width: initial;
+            border: none;
+        }
+
+        .nav-item {
+            margin-bottom: 3rem;
+
+            .nav-link {
+                position: relative;
+                border: none;
+
+                &::after {
+                    content: '';
+                    display: block;
+                    height: 2px;
+                    background: transparent;
+                    margin-top: .25rem;
+                    width: 100%;
+                    font-family: $poppins;
+                    opacity: 0;
+                    transition: .3s;
+                    background: $primary;
+                }
+
+                &.active {
+                    background: transparent;
+                    color: $white;
+                    font-weight: $headings-font-weight;
+
+                    &:after {
+                        background: $primary;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+
+    p {
+        margin-bottom: 2.5rem;
+    }
+
+    iframe {
+        margin-top: 5.5rem;
+        border-radius: 7px;
+        overflow: hidden;
+        width: 100%;
+        height: 40rem;
+    }
+}

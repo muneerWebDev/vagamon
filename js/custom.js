@@ -3,6 +3,10 @@ $(document).ready(function () {
     // setting dynamic css variabels
     getDynamicDimensions();
 
+    $(window).ready(function(){
+        getDynamicDimensions();
+    })
+
     //adding class to body if scrolled from pagetop
     addClassToBodyIfScrolled();
     $(window).scroll(function () {
@@ -18,6 +22,39 @@ $(document).ready(function () {
 
 
     //sliders
+
+    /* Home slider starts */
+
+    $('.main-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        fade: true,
+        asNavFor: '.nav-slider'
+    });
+
+    $('.nav-slider').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        asNavFor: '.main-slider',
+        focusOnSelect: true,
+        dots: true,
+        dotsClass: 'custom_paging',
+        customPaging: function (slider, i) {
+            console.log(slider);
+            return  (i + 1) + '/' + slider.slideCount;
+        },
+        responsive: [{
+            breakpoint: 991,
+            settings: {
+                slidesToShow: 1
+            }
+        }]
+    });
+
+    /* Home slider ends */
+
     $(".destinations .slider").slick({
         arrows: true,
         infinite: true,
