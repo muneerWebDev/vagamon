@@ -20,6 +20,10 @@ $(document).ready(function () {
     //adding class to inout field if it has value
     ifInputHasValueToggleActive();
 
+    //adding class to body if homepage
+    if($("main").hasClass("homepage"))
+        $("body").addClass("homepage");
+
 
     //sliders
 
@@ -38,11 +42,10 @@ $(document).ready(function () {
         slidesToShow: 2,
         slidesToScroll: 1,
         asNavFor: '.main-slider',
-        focusOnSelect: true,
+        // focusOnSelect: true,
         dots: true,
         dotsClass: 'custom_paging',
         customPaging: function (slider, i) {
-            console.log(slider);
             return  (i + 1) + '/' + slider.slideCount;
         },
         responsive: [{

@@ -11,8 +11,8 @@
                 position: relative;
                 padding: calc(var(--navbarHeight)*3.2) 0 calc(var(--navbarHeight)*3);
 
-                @include media-breakpoint-down(xl){
-                    padding: var(--navbarHeight) 0 80rem;
+                @include media-breakpoint-down(xl) {
+                    padding: calc(var(--navbarHeight)*1.25) 0 50vh;
                 }
 
                 .image {
@@ -26,7 +26,7 @@
                 }
 
                 .container-righted {
-                    @include media-breakpoint-up(xl){
+                    @include media-breakpoint-up(xl) {
                         max-width: 35%;
                     }
                 }
@@ -59,23 +59,33 @@
             width: 55%;
             padding: calc(var(--navbarHeight) * 1) 0 0 3rem;
 
-            @include media-breakpoint-down(xl){
+            @include media-breakpoint-down(xl) {
                 width: 100%;
-                bottom: 10rem;
+                bottom: 7rem;
                 top: initial;
                 transform: none;
-                padding-left: calc(var(--containerOffset) + var(--bs-gutter-x,1.5rem));
+                padding-left: calc(var(--containerOffset) + var(--bs-gutter-x, 1.5rem));
+                margin: 0;
             }
 
             .item {
                 padding: 0 2rem;
+                
+                @include media-breakpoint-down(xl) {
+                    padding: 0 1rem;
+                }
             }
 
             .custom_paging {
                 margin-top: 7rem;
                 text-align: right;
                 margin-right: var(--containerOffset);
-                padding-right: var(--bs-gutter-x,1.5rem);   
+                padding-right: var(--bs-gutter-x, 1.5rem);
+
+                @include media-breakpoint-down(xl) {
+                    margin-top: 5rem;
+                    margin-bottom: 2.5rem;
+                }
                 li {
                     display: none;
 
@@ -99,7 +109,7 @@
                 align-items: center;
                 justify-content: center;
 
-                &::before{
+                &::before {
                     content: '\f054';
                     font-family: "Font Awesome 5 Pro";
                     font-style: normal;
@@ -107,12 +117,18 @@
                     transition: .3s;
                 }
 
-                &.slick-prev{
+                &.slick-prev {
                     margin-right: 6.5rem;
                     background: transparentize($white, .85);
-                    &::before{
+
+                    &::before {
                         content: '\f053';
                     }
+                }
+                
+                @include media-breakpoint-down(xl) {
+                    transform: scale(.75);
+                    bottom: 1.7rem;
                 }
             }
 
@@ -125,6 +141,10 @@
                 align-items: flex-end;
                 box-shadow: $card-box-shadow;
                 @include hoverExplore;
+
+                @include media-breakpoint-down(xl) {
+                    max-height: 30vh;
+                }
 
                 img {
                     position: absolute;
@@ -149,6 +169,12 @@
             .slick-list.draggable {
                 padding: 0 23% 0 0 !important;
                 margin: 0 -2rem;
+
+                @include media-breakpoint-down(xl) {
+
+                    padding: 0 35% 0 0 !important;
+                    margin: 0 -1rem;
+                }
 
                 .slick-current+.slick-active {
                     .wrap {

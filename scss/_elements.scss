@@ -86,7 +86,9 @@ h6{
 
 body {
     @include media-breakpoint-down(lg){
-        padding-top: var(--navbarHeight);
+        &:not(.homepage){
+            padding-top: var(--navbarHeight);
+        }
     }
     
     .rating {
@@ -175,14 +177,14 @@ textarea.form-control {
 .navbar-toggler{
     padding: 0;
     &:focus{
-        outline: none;
+        box-shadow: none;
     }
 }
 
 .hamburger {
     width: 30px;
     height: 3px;
-    background: $white;
+    background: $black;
     display: block;
     position: relative;
     border-radius: 5px;
@@ -196,7 +198,7 @@ textarea.form-control {
         height: 100%;
         left: 0;
         top: -300%;
-        background: $white;
+        background: $black;
         transition: .3s;
     }
 
