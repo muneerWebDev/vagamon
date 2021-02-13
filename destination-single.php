@@ -121,7 +121,7 @@
                                 <img src="images/destinations/munnar/camp_woody/gallery/CW_NYC_02.jpg" alt="" class="img-fluid">
                             </a>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-6 item">
+                        <!-- <div class="col-lg-3 col-md-4 col-6 item">
                             <a href="images/destinations/munnar/camp_woody/gallery/CW_NYC_03.jpg" class="wrap" data-lightbox="roadtrip">
                                 <img src="images/destinations/munnar/camp_woody/gallery/CW_NYC_03.jpg" alt="" class="img-fluid">
                             </a>
@@ -157,8 +157,16 @@
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-4 col-6 item">
-                            <a href="images/destinations/munnar/camp_woody/gallery/Campw_woody_(18).jpg"" class="wrap" data-lightbox="roadtrip">
+                            <a href="images/destinations/munnar/camp_woody/gallery/Campw_woody_(18).jpg"" class=" wrap" data-lightbox="roadtrip">
                                 <img src="images/destinations/munnar/camp_woody/gallery/Campw_woody_(18).jpg" alt="" class="img-fluid">
+                            </a>
+                        </div> -->
+
+
+
+                        <div class="load-more-wrapper text-center mt-5">
+                            <a href="javaScript:void(0)" class="load-more" title="Load More">
+                                <i class="text-primary fs-4 far fa-chevron-circle-down"></i>
                             </a>
                         </div>
                     </div>

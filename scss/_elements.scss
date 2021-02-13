@@ -218,3 +218,20 @@ textarea.form-control {
         }
     }
 }
+
+.whatsapp-mobile{
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    z-index: 99;    
+    .btn{
+        padding: 1rem;
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: $box-shadow;
+    }
+}

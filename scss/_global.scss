@@ -44,11 +44,11 @@
     }
 
 
-    @include media-breakpoint-down(lg) {
+    @include media-breakpoint-down(xl) {
         // main:not(.homepage) {
         background: $white;
         box-shadow: $box-shadow;
-
+        font-size: 2rem;
         .navbar-brand {
             img {
                 max-height: 6rem;
@@ -148,7 +148,7 @@ section {
                     content: counter(sl-no, decimal-leading-zero);
                     font-weight: $headings-font-weight;
                     margin-left: auto;
-                    font-size: 25rem;
+                    font-size: 22rem;
                     position: absolute;
                     right: 0;
                     top: -7.5rem;
@@ -345,6 +345,16 @@ section {
             }
 
         }
+
+        .experience-slider{
+            .slick-list{
+                margin: 0 -2rem;
+
+                .item{
+                    padding: 0 2rem;
+                }
+            }
+        }
     }
 
     &.testimonials {
@@ -464,6 +474,7 @@ section {
                 padding: 8rem 5rem;
             }
 
+
             h2 {
                 margin-bottom: 4rem;
             }
@@ -495,6 +506,21 @@ section {
                     &:hover {
                         background: transparentize($primary, .87);
                         border-color: $primary;
+                    }
+                }
+            }
+
+            
+            @include media-breakpoint-down(sm) {
+                padding: 3rem 3rem 5rem;
+                h2{
+                    margin-bottom: 2rem;
+                }
+
+                .contact-links{
+                    margin-top: 3rem;
+                    a{
+                        padding: 1rem;
                     }
                 }
             }
