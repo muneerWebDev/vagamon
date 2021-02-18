@@ -37,8 +37,54 @@
                             <li>Two-wheelers can drive directly to the camp.</li>
                         </ol>
 
+                        <hr>
+
+                        <h6 class="text-center pb-5 pt-3">Included In The Price</h6>
+
+                        <div class="col-12">
+
+                            <div class="row text-center icons-row">
+                                <div class="col">
+                                    <div class="item">
+                                        <span class="icon"><i class="fas fa-campground"></i></span>
+                                        <p>Tent Stay</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="item">
+                                        <span class="icon"><i class="fas fa-mug-tea"></i></span>
+                                        <p>Welcome Tea</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="item">
+                                        <span class="icon"><i class="fas fa-utensils-alt"></i></span>
+                                        <p>Dinner</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="item">
+                                        <span class="icon"><i class="fad fa-mug-marshmallows"></i></span>
+                                        <p>Morning Bed Coffee</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="item">
+                                        <span class="icon"> <i class="fas fa-egg-fried"></i></span>
+                                        <p>Breakfast</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="item">
+                                        <span class="icon"><i class="fas fa-skating"></i>
+                                            <p>Indoor Games & Activities</p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="image">
-                            <img src="images/destinations/munnar/camp_woody/camp-woody.jpg" alt="" class="img-fluidw-100">
+                            <img src="images/destinations/munnar/camp_woody/camp-woody.jpg" alt="" class="img-fluid w-100">
                         </div>
 
                     </div>
@@ -46,17 +92,6 @@
 
                 <div class="col-md-5">
                     <div class="whats-included">
-                        <h6>Included In The Price</h6>
-                        <ol>
-                            <li>Tent Stay</li>
-                            <li>Welcome Tea</li>
-                            <li> Dinner</li>
-                            <li>Morning Bed Coffee</li>
-                            <li>Breakfast</li>
-                            <li>Indoor Games & Activities</li>
-                        </ol>
-
-                        <hr>
 
                         <h6>What Makes Us Different From Others</h6>
                         <ul>
