@@ -7,6 +7,14 @@
     <meta name="Author" content="Muneer">
     <title>THE VAGAMON TRIP</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <link rel="preload" href="fonts/poppins/Poppins-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/poppins/Poppins-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/poppins/Poppins-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="webfonts/fa-light-300.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="css/style.css">
 </head>
 

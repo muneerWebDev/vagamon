@@ -261,16 +261,16 @@ main:not(.homepage) {
 .experience-single {
 
     .banner {
-        background: $dark-gradient;
+        // background: $dark-gradient;
         padding: var(--navbarHeight) 0 0;
 
         @include media-breakpoint-down(lg) {
             padding: 0 0 3rem;
         }
 
-        * {
-            color: $white;
-        }
+        // * {
+        //     color: $white;
+        // }
 
         h3 {
             margin: 6rem 0;
@@ -280,10 +280,10 @@ main:not(.homepage) {
         ul {
             max-width: initial;
             border: none;
+            justify-content: center;
         }
 
         .nav-item {
-            margin-bottom: 3rem;
 
             @include media-breakpoint-down(lg) {
                 width: 25%;
@@ -299,31 +299,35 @@ main:not(.homepage) {
             
             .nav-link {
                 position: relative;
-                border: none;
-
-
-                &::after {
-                    content: '';
-                    display: block;
-                    height: 2px;
-                    background: transparent;
-                    margin-top: .25rem;
-                    width: 100%;
-                    font-family: $poppins;
-                    opacity: 0;
-                    transition: .3s;
-                    background: $primary;
-                }
+                border: 2px solid $primary;
+                transition: .3s;
+                padding: .5rem 1rem;
+                margin: 1rem;
+                // &::after {
+                //     content: '';
+                //     display: block;
+                //     height: 2px;
+                //     background: transparent;
+                //     margin-top: .25rem;
+                //     width: 100%;
+                //     font-family: $poppins;
+                //     opacity: 0;
+                //     transition: .3s;
+                //     background: $primary;
+                // }
 
                 &.active {
-                    background: transparent;
-                    color: $white;
-                    font-weight: $headings-font-weight;
+                    // background: transparent;
+                    // // color: $white;
+                    // font-weight: $headings-font-weight;
 
-                    &:after {
-                        background: $primary;
-                        opacity: 1;
-                    }
+                    // &:after {
+                    //     background: $primary;
+                    //     opacity: 1;
+                    // }
+                    border-color: $primary;
+                    background: $primary;
+                    color: $white;
                 }
             }
         }

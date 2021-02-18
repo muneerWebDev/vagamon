@@ -3,7 +3,7 @@ $(document).ready(function () {
     // setting dynamic css variabels
     getDynamicDimensions();
 
-    $(window).ready(function(){
+    $(window).ready(function () {
         getDynamicDimensions();
     })
 
@@ -21,7 +21,7 @@ $(document).ready(function () {
     ifInputHasValueToggleActive();
 
     //adding class to body if homepage
-    if($("main").hasClass("homepage"))
+    if ($("main").hasClass("homepage"))
         $("body").addClass("homepage");
 
 
@@ -46,7 +46,7 @@ $(document).ready(function () {
         dots: true,
         dotsClass: 'custom_paging',
         customPaging: function (slider, i) {
-            return  (i + 1) + '/' + slider.slideCount;
+            return (i + 1) + '/' + slider.slideCount;
         },
         responsive: [{
             breakpoint: 991,
@@ -126,10 +126,17 @@ function ifInputHasValueToggleActive() {
 }
 
 function addClassToBodyIfScrolled() {
-    var scrollTop = $(window).scrollTop();
-    if (scrollTop > 10) {
+
+    if ($("main").hasClass("experience-single")) {
         $("body").addClass("scrolled");
     } else {
-        $("body").removeClass("scrolled");
+        var scrollTop = $(window).scrollTop();
+        if (scrollTop > 10) {
+            $("body").addClass("scrolled");
+        } else {
+            $("body").removeClass("scrolled");
+        }
     }
+
+
 }
