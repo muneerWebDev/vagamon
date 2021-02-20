@@ -49,6 +49,7 @@
         background: $white;
         box-shadow: $box-shadow;
         font-size: 2rem;
+
         .navbar-brand {
             img {
                 max-height: 6rem;
@@ -276,9 +277,9 @@ section {
                     .slick-list {
                         margin: 0 -1.5rem;
                     }
-    
+
                     .slick-track {
-    
+
                         .card {
                             padding: 0 1.5rem;
                         }
@@ -346,11 +347,11 @@ section {
 
         }
 
-        .experience-slider{
-            .slick-list{
+        .experience-slider {
+            .slick-list {
                 margin: 0 -2rem;
 
-                .item{
+                .item {
                     padding: 0 2rem;
                 }
             }
@@ -510,16 +511,18 @@ section {
                 }
             }
 
-            
+
             @include media-breakpoint-down(sm) {
                 padding: 3rem 3rem 5rem;
-                h2{
+
+                h2 {
                     margin-bottom: 2rem;
                 }
 
-                .contact-links{
+                .contact-links {
                     margin-top: 3rem;
-                    a{
+
+                    a {
                         padding: 1rem;
                     }
                 }
@@ -536,6 +539,15 @@ section {
 
 }
 
+.call-to-action {
+    .wrap {
+        padding: 5rem 3rem;
+        border-radius: 1rem;
+        background: $dark;
+        text-align: center;
+        color: $white;
+    }
+}
 
 footer {
     background: url("../images/footer.jpg") center center no-repeat;
