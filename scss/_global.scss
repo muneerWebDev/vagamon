@@ -546,6 +546,11 @@ section {
         background: $dark;
         text-align: center;
         color: $white;
+        *{
+            max-width: 82.8rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 }
 

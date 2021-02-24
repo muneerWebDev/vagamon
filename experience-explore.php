@@ -93,6 +93,19 @@
         </div>
     </section>
 
+    <section class="call-to-action mb-md-5 pb-5">
+        <div class="container  mb-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="wrap">
+                        <h3>Want to know more?</h3>
+                        <p class="my-4">Contact us now to know more about our special pacakges and discounts!</p>
+                        <a href="" class="btn btn-primary">contact us now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="gallery">
         <div class="container">
