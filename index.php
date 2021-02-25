@@ -84,7 +84,7 @@
 
     </section>
 
-    <section class="call-to-action mt-md-5 pt-5">
+    <!-- <section class="call-to-action mt-md-5 pt-5">
         <div class="container  mt-5">
             <div class="row">
                 <div class="col-12 text-center">
@@ -96,7 +96,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="destinations">
         <div class="container">
